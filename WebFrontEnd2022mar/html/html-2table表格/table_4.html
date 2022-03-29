@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>表格属性2</title>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+</head>
+
+<body>
+    <!-- 表格的行，列 分别添加及删除 -->
+    <!-- 默认无边框，可以border 设置 -->
+    <table border="6" width="500px"  bgcolor="pink" cellspacing="5px" cellpading="5px" 
+      align="center" >
+        <caption><b>各个城市的平均薪水</b></caption>
+
+        <thead>
+            <tr bgcolor="purple">
+                <th>城市</th> <!-- 增加一列 -->
+                <th>2022年</th>
+                <th bgcolor="#d8e4bc">2021年</th>
+                <th>2020年</th>
+                <th bgcolor="rgb(200,100,50)">2019年</th>
+            </tr>
+        </thead>
+
+        <!-- th标签已经是默认的居中加粗什么的 -->
+        <tbody align="center" Valign="middle">
+            <!-- 增加一行 -->
+            <tr  bgcolor="blue" height="50px">
+                <td>珠海</td> <!-- 增加一列 -->
+                <td>上半年</td>
+                <td>下半年</td>
+                <td>2020年</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#3e5t6g" align="center">北京</td> <!-- 增加一列 -->
+                <td>2022年</td>
+                <td>2021年</td>
+                <td>2020年</td>
+                <td>2020年</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td bgcolor="#3e5t6g" align="center">总计</td> <!-- 增加一列 -->
+                <td>18000</td>
+                <td>9000</td>
+                <td>8000</td>
+                <td>7000</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+
+
+</html>
